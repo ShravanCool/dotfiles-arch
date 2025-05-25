@@ -156,7 +156,7 @@ assign [class="firefox" instance="Navigator"] $ws2
 focus_follows_mouse no
 
 set $i3lockwall sh ~/.config/i3/scripts/lock.sh
-bindsym $mod+CTRL+Shift+l exec --no-startup-id $i3lockwall
+bindsym $mod+Shift+x exec --no-startup-id $i3lockwall
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
