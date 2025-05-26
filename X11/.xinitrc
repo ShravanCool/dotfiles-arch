@@ -1,4 +1,7 @@
 xrdb -merge ~/.config/X11/.Xresources
-urxctd -o -q -f
+urxvtd -o -q -f
+udiskie &
+
+setxkbmap -option 'caps:ctrl_modifier';xcape -e 'Caps_Lock=Escape'&
 
 exec i3
